@@ -1,0 +1,45 @@
+*{margin: 0px; padding: 0px;}
+body{
+    background-color: #2D2424;
+}
+
+header{
+    padding: 10px;
+    background-color: #2D2424;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 20%;
+    background-color: #B85C38;
+    padding: 20px;
+}
+
+section{
+    flex: 70%;
+    background-color: #5C3D2E;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #E0C097;
+}
